@@ -1,9 +1,28 @@
-# React + Vite
+# PlotCorn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome!
 
-Currently, two official plugins are available:
+This is a ReactJS app for browsing a movie catalog
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# plotcorn" 
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cassioquint/plotcorn.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd plotcorn
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install react-icons react-router-dom axios
+   ```
+
+## Usage
+After installation, you can start the local server with:
+```bash
+npm run dev
+```
+
+## Result
+[Check out the results right here!](...)
