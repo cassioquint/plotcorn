@@ -1,0 +1,17 @@
+{
+  "best_movies": "Melhores Filmes",
+  "welcome": "Bem-vindo ao PlotCorn - Seu catálogo de filmes",
+  "placeholder": "Busque um filme",
+  "sort": "Ordenar por:",
+  "rating_high": "Avaliação [Maior ao Menor]",
+  "rating_low": "Avaliação [Menor ao Maior]",
+  "release_new": "Lançamento [Recente ao Antigo]",
+  "release_old": "Lançamento [Antigo ao Recente]",
+  "see_more": "Detalhes",
+  "loading": "Carregando...",
+  "budget": "Orçamento",
+  "revenue": "Receita",
+  "runtime": "Duração",
+  "overview": "Descrição",
+  "language": "language=pt-BR"
+}

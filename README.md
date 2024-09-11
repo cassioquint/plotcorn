@@ -15,7 +15,7 @@ This is a ReactJS app for browsing a movie catalog
    ```
 3. Install the dependencies:
    ```bash
-   npm install react-icons react-router-dom axios
+   npm install react-icons react-router-dom axios npm react-i18next i18next
    ```
 
 ## Usage

@@ -3,6 +3,8 @@ import { useSearchParams } from "react-router-dom"
 import MovieCard from "../components/MovieCard"
 import SortHeader from "../components/SortHeader"
 import sortMovies from "../utils/sortMovies"
+import { useTranslation } from 'react-i18next'
+import '../config/i18next'
 import axios from "axios"
 
 import './MoviesGrid.css'
@@ -11,6 +13,7 @@ const searchUrl = import.meta.env.VITE_SEARCH
 const apiKey = import.meta.env.VITE_API_KEY
 
 const Search = () => {
+  const { t } = useTranslation()
   const [searchParams] = useSearchParams()
   const [movies, setMovies] = useState([])
   const [sort, setSort] = useState("rating-desc")
@@ -31,10 +34,10 @@ const Search = () => {
 
   useEffect(() => {
     if (query) {
-      const searchWithQueryUrl = `${searchUrl}?${apiKey}&query=${query}`
+      const searchWithQueryUrl = `${searchUrl}?${apiKey}&query=${query}&${t('language')}`
       getSearchedMovies(searchWithQueryUrl)
     }
-  }, [query, sort])
+  }, [query, sort, t])
 
   return (
     <div className="container">

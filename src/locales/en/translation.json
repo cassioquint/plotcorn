@@ -1,0 +1,17 @@
+{
+  "best_movies": "Best Movies",
+  "welcome": "Welcome to PlotCorn - Your Movie Catalog",
+  "placeholder": "Search for a movie",
+  "sort": "Sort by:",
+  "rating_high": "Best Rating [High to Low]",
+  "rating_low": "Best Rating [Low to High]",
+  "release_new": "Release Date [New to Old]",
+  "release_old": "Release Date [Old to New]",
+  "see_more": "See more",
+  "loading": "Loading...",
+  "budget": "Budget",
+  "revenue": "Revenue",
+  "runtime": "Runtime",
+  "overview": "Overview",
+  "language": "language=en-US"
+}

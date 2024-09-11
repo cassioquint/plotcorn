@@ -11,6 +11,18 @@
     gap: .5rem;
 }
 
+#navbar .language-selection {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+#navbar .language-selection .language-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 #navbar form {
     display: flex;
     gap: .5rem;

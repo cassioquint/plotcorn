@@ -2,11 +2,14 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { BiSearchAlt2 } from 'react-icons/bi'
 import { LuPopcorn } from 'react-icons/lu'
+import { useTranslation } from 'react-i18next'
+import '../config/i18next'
+import LanguageSelector from './LanguageSelector'
 
 import './Navbar.css'
 
 const Navbar = () => {
-
+    const { t } = useTranslation();
     const [search, setSearch] = useState("")
     const navigate = useNavigate()
 
@@ -27,10 +30,11 @@ const Navbar = () => {
                     <LuPopcorn /> PlotCorn
                 </Link>
             </h2>
+            <LanguageSelector />
             <form onSubmit={handleSubmit} >
                 <input
                     type="text"
-                    placeholder='Search for a movie'
+                    placeholder={t('placeholder')}
                     onChange={(e) => setSearch(e.target.value)}
                     value={search}
                 />
