@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
-import { BiCameraMovie, BiSearchAlt2 } from 'react-icons/bi'
+import { BiSearchAlt2 } from 'react-icons/bi'
+import { LuPopcorn } from 'react-icons/lu'
 
 import './Navbar.css'
 
@@ -23,7 +24,7 @@ const Navbar = () => {
         <nav id="navbar">
             <h2>
                 <Link to="/">
-                    <BiCameraMovie /> PlotCorn
+                    <LuPopcorn /> PlotCorn
                 </Link>
             </h2>
             <form onSubmit={handleSubmit} >
