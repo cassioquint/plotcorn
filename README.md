@@ -25,4 +25,4 @@ npm run dev
 ```
 
 ## Result
-[Check out the results right here!](...)
+[Get your popcorn, and check out the results right here!](...)
